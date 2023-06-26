@@ -1,0 +1,9 @@
+spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+  datasource:
+    url: jdbc:mariadb://127.0.0.1:3307/coupon_example
+    username: root
+    password: 1234
